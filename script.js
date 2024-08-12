@@ -10,7 +10,7 @@ form.addEventListener("submit", (event) => {
   const email = document.querySelector("#email");
   const agree = document.querySelector("#agree");
 
-  fetch("https://polinashneid…;, {
+  fetch(`https://polinashneider.space/user`, {
     method: "POST",
     headers: {
     Accept: "application/json",
@@ -38,6 +38,6 @@ form.addEventListener("submit", (event) => {
     alert("Произошла ошибка :(");
   })
 });
-});
+
 
 
